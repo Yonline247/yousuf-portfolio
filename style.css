@@ -1,9 +1,13 @@
 
 body{
-    font-family: "Slabo 27px", serif;
-  font-weight: 400;
-  font-style: normal;   
+    margin: 0px;
+    font-family: "Slabo 27px", serif; 
+    
+    
         
+}
+.half-width{
+    margin-left: 10%;
 }
 
 h1{
@@ -13,11 +17,34 @@ h1{
     color: blue;
 }
 .half-width{
-    width: 40%;
+    width: 30%;
     float: left;
     margin: left 5%;
     padding: left 2%;
 }
+
+.hire-me{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, lightSalmon, tomato );
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    font-style: bold;
+    
+}
 .half-width img{
     width: 100%;
+}
+
+
+.top-banner{
+    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
 }
